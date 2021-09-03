@@ -1,0 +1,37 @@
+.sample__menu__session {
+  display: flex;
+  flex-flow: column;
+  list-style-type: none;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #333333;
+}
+
+.sample__menu__session-toggle,
+.sample__menu__item-group {
+  text-align: left;
+}
+
+.sample__menu__session-toggle {
+  display: inline-flex;
+  height: 26px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.sample__menu__session-toggle:hover {
+  background: #caffff;
+}
+.sample__menu__session-toggle label {
+  width: 100%;
+  height: 26px;
+  line-height: 26px;
+  padding-right: 26px;
+  cursor: pointer;
+}
+
+.sample__menu__item-group {
+  margin: 0px;
+  padding: 4px 4px 4px 8px;
+  list-style-type: none;
+}

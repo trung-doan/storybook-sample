@@ -1,0 +1,39 @@
+{
+  "name": "storybook-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trung-doan/storybook-sample.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trung-doan/storybook-sample/issues"
+  },
+  "homepage": "https://github.com/trung-doan/storybook-sample#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.4",
+    "@storybook/addon-actions": "^6.3.7",
+    "@storybook/addon-essentials": "^6.3.7",
+    "@storybook/addon-links": "^6.3.7",
+    "@storybook/addon-viewport": "^6.3.7",
+    "@storybook/react": "^6.3.7",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "dependencies": {
+    "@mdi/js": "^5.9.55",
+    "@mdi/light-js": "^0.2.63",
+    "@mdi/react": "^1.5.0"
+  }
+}
